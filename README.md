@@ -1,6 +1,6 @@
-### Inquirer.js
+### ora
 ---
-https://github.com/SBoudrias/Inquirer.js
+https://github.com/sindresorhus/ora
 
 ```
 ```
