@@ -3,12 +3,26 @@
 https://github.com/sindresorhus/ora
 
 ```
+npm install ora
+```
+
+```js
+const ora = require('ora');
+
+const spinner = ora('Loading unicorns').start();
+
+setTimeout(() => {
+  spinner.color = 'yellow';
+  spinner.text = 'Loading rainbows';
+}, 1000);
+
 ```
 
 ```
-```
-
-```
+{
+  interval: 80,
+  frames: ['-', '+', '-']
+}
 ```
 
 
